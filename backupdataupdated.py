@@ -8,8 +8,9 @@ import getpass
 from datetime import datetime, timedelta
 
 # ---------------- CONFIG ----------------
+#change your drive accordingly
 MAPPED_ROOT = r"Z:\\"  
-UNC_ROOT = r"\\server\Unity Exploration\IT Department"
+UNC_ROOT = r"\\server\IT Department"
 BACKUP_FOLDER_NAME = "BACKUP"
 USER_FOLDERS = ["Desktop", "Documents"]
 RETRY_INTERVAL_SECONDS = 60
